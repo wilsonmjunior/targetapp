@@ -14,10 +14,19 @@
     },
     "ios": {
       "bundleIdentifier": "com.matokano.target",
-      "icon": "./assets/ios-icon.png"
+      "icon": "./assets/ios-icon.png",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a4b4a407-607d-4b27-8a69-a8216f8bb756"
+      }
+    }
   }
 }
