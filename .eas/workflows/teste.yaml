@@ -1,0 +1,11 @@
+name: Teste
+
+on: 
+  push:
+    branches: ["main"]
+
+jobs: 
+  Teste
+    steps: 
+      - run: echo "code update"
+      

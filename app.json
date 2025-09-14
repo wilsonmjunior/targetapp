@@ -2,6 +2,22 @@
   "expo": {
     "name": "targeapp",
     "slug": "targeapp",
-    "version": "1.0.0"
+    "scheme": "targeapp",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.matokano.target",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.matokano.target",
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
